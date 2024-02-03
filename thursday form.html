@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,td,th{
+            border: 1px solid black;
+
+        }
+    </style>
+      
+</head>
+<body>
+    <table>
+        <form>
+        <tr>
+            <th>Name</th>
+            <th>Value</th>  
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td><input type="text" name="name" id="name"></td>
+
+        </tr>
+        <tr>
+            <td>Gender</td>
+            <td> <input type="radio" name="radio" id="radio">Male <br><input type="radio" name="radio" id="radio">Female</td>
+            
+        </tr>
+        <tr>
+            <td>Eye color</td>
+            <td> <select>
+                <option>green</option>
+                <option>blue</option>
+                <option>black</option>
+                <option>brown</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td>date of birth</td>
+            <td><input type="date" name="datetime" id="datetime"></td>
+        </tr>
+        <tr>
+            <td>weight <br>height</td>
+            <td><input type="number" name="number" id="number"><br><input type="number" name="number" id="number"></td>    
+        </tr>
+        <tr>
+            <td colspan="2">
+                Describe your athletic ability:<br>
+                <textarea name="textarea" id="textarea" cols="50" rows="5"></textarea>
+            </td>
+        </tr>
+        
+        <tr>
+            <th colspan="2">
+            <input type="submit" name="submit" id="submit" > 
+            </th>
+        </tr>
+        
+
+        </form>
+    </table>
+    
+</body>
+</html>
